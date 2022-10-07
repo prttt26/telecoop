@@ -11,7 +11,7 @@ chmod -R +x .
 git config --global user.name "prttt26"
 git config --global user.email "prttt26@gmail.com"
 
-#GitUrl=<repo url>
+#GitUrl=https://github.com/prttt26/telecoop.git
 repoDir=$SCRIPTPATH
 
 
@@ -23,7 +23,9 @@ cd $repoDir
 git pull
 
 #scriptrun part
-./run.sh
+if [ -f "run.sh" ]; then
+    ./run.sh
+fi
 git mv run.sh done.sh
 
 
