@@ -4,7 +4,6 @@
 CWD=$(pwd)
 SCRIPT=`readlink -f "$0"`
 SCRIPTPATH=$(dirname "$SCRIPT")
-cd $SCRIPTPATH
 chmod -R +x .
 
 
