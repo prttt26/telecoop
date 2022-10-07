@@ -10,7 +10,8 @@ cd $folder
 #run the code and put outputs in a log file
 #lammps_input=input.lmp
 #logfile=
-# 2>&1 put the stderr to stdout, so accept the error messages
+# 2>&1 put the stderr to stdout, so accept the error messages,
+# >>$logfile save the outputs to the $logfile
 #lmp -in $lammps_input 2>&1 >>$logfile 
 
 #if you want to run multiple scripts together
