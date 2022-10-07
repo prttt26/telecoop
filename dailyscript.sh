@@ -8,9 +8,6 @@ cd $SCRIPTPATH
 chmod -R +x .
 
 
-git config --global user.name "prttt26"
-git config --global user.email "prttt26@gmail.com"
-
 #GitUrl=https://github.com/prttt26/telecoop.git
 repoDir=$SCRIPTPATH
 
@@ -31,7 +28,7 @@ git mv run.sh done.sh
 
 #git push to save changes
 git add .
-git commit -m "added CommitTest.txt to the repo"
+git commit -m "Daily run upload"
 git push
 
 
